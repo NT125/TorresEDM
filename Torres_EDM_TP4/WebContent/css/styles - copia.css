@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(20, 5, 13, 0.863);
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+body{
+    background: url(img/bg.jpg);
+    background-attachment: fixed;
+    padding: 0px 35px 600px;   
+    overflow-x: hidden;     
+}
+
+nav{
+    background-color:rgba(29, 29, 29, 0.836);
+    font-weight: bold;
+}
+
+.main
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 4px 4px;
+    width: 100%;
+    padding: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 4px 4px;
+    width: 100%;
+    padding: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main h2{
+    padding: 15px 15px 1px 15px;
+}
+
+.main p{
+    padding: 0px 40px 4px 40px;
+    font-size: 120%;
+}
+
+li{
+    font-size: 120%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main img{
+    width: 100%;
+    border-radius: 5px;
+}
+body{
+    background: url(img/bg.jpg);
+    background-attachment: fixed;
+    padding: 0px 35px 600px;   
+    overflow-x: hidden;     
+}
+
+
+
+ul{
+    padding: 30px;
+}

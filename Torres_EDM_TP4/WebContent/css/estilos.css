@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(241, 16, 8, 0.863);
+    position: relative;
+    border-radius: 80px 80px 0px 0px;
+    width: 100%;
+}
+
+nav{
+    background-color:rgba(250, 23, 15, 0.836);
+    font-weight: bold;
+}
+
+.main
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 4px 4px;
+    width: 100%;
+    padding: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main h2{
+    padding: 15px 15px 1px 15px;
+}
+
+.main p{
+    padding: 0px 40px 4px 40px;
+    font-size: 120%;
+}
+
+li{
+    font-size: 120%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main img{
+    width: 100%;
+    border-radius: 5px;
+}
+body{
+    background: url(img/bg.jpg);
+    background-attachment: fixed;
+    padding: 0px 35px 600px;   
+    overflow-x: hidden;     
+}
+
+
+
+ul{
+    padding: 30px;
+}
+
+/* slider antiguo sin bootstrap - no se si me pueda servir de nuevo:
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;    
+}
+
+.slider ul{
+    display: flex;
+    width: 400%;    
+    padding: 0;
+    animation: anim 20s infinite alternate;
+    animation-timing-function: ease-out;
+}
+
+.slider:nth-child(2) ul{
+    animation-timing-function: steps(4);
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes anim{
+    0%{ margin-left: 0; }
+    20%{ margin-left: 0; }
+
+    25%{ margin-left: -100%; }
+    45%{ margin-left: -100%; }
+    
+    50%{ margin-left: -200%; }
+    70%{ margin-left: -200%; }
+
+    75%{ margin-left: -300% }
+    100%{ margin-left: -300% }
+}*/
+
+.payment form{
+    font-size: 13px;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    text-align: center;
+}
+
+aside
+{
+    display: block;
+    background-color: rgba(255, 59, 59, 0.863);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+/* aside antiguo sin bootstrap
+aside h3{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border:3px #ffffff;
+    box-shadow:0px 0px 3px 3px #ffffff ;
+    border-radius: 20px 20px 20px 20px;
+}
+
+aside{
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+    width: 33%;
+    float: right;
+    background-color: rgb(190, 39, 39);
+    color: white;
+    border-radius: 4px 4px 4px 4px;
+    padding: 10px 10px;
+    bottom: 30px;
+    right: 30px;
+    top: 190.3px;
+}
+*/
